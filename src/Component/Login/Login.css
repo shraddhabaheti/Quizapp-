@@ -1,0 +1,25 @@
+.div1{
+    text-align: center;
+}
+.div2{
+    margin: 5px;
+    background: aliceblue;
+    padding: 20px;
+}
+.label1{
+    font-size: 20px;
+    margin: 16px;
+    font-family: 'fantasy';
+}
+.input1{
+    padding:5px ;
+     
+}
+.login{
+    color: darkblue;
+}
+.button{
+    background-color: darkblue;
+    width: 9%;
+    color: azure;
+}

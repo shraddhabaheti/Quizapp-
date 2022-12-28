@@ -1,0 +1,16 @@
+.navbar {
+  padding: 14px;
+  /* background: -webkit-linear-gradient(rgb(37, 69, 74), rgb(230, 232, 220)); */
+  background-color: #d7c7b4;;
+}
+
+.link {
+  margin: 20px;
+  text-decoration: none;
+  font-size: 33px;
+  margin-left: 40px;
+  background: -webkit-linear-gradient(rgb(10, 28, 130), rgb(118, 153, 229));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: cursive;
+}
