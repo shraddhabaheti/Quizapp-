@@ -3,7 +3,6 @@
     font-family: arial;
     display: flex;
     background-color: aliceblue;
-
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -17,11 +16,9 @@
     background: -webkit-linear-gradient(rgb(194, 200, 231), rgb(139, 168, 232));
     /* background: -webkit-linear-gradient(rgb(245, 167, 217), rgb(16, 237, 178)); */
     /* background-color: lightseagreen; */
-
-    display: flex;
+      display: flex;
     flex-direction: column;
-    /* border: 10px dotted currentColor; */
-    justify-content: center;
+   justify-content: center;
     align-items: center;
 }
 
@@ -89,8 +86,6 @@ h3 {
     color: black;
     font-size: 22px;
     font-family: 'cursive';
-    /* margin: 32px; */
-    /* margin-left: -130px; */
     margin-right: 132px;
 }
 

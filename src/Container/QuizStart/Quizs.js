@@ -3,6 +3,7 @@ import { QuizContext } from '../Question/Context';
 import { QuestionBank } from '../Question/QuestionBank'
 import { QuestionCss } from '../Question/QuestionCss';
 import { QuestionHtml } from '../Question/QuestionHtml';
+
 import './Quiz.css';
 function Quizs() {
     const { score, setScore, setGameState } = useContext(QuizContext);
@@ -31,10 +32,10 @@ function Quizs() {
     }
     return (
         <div className='Quiz'>
-
+          
             <h1 className='currentQuestion'>{QuestionBank[currQuestion].prompt}</h1>
-
-            <div className='btt1'>
+        
+            <div className='btt1'> 
                 <button onClick={() => chooseOption('A')}>{QuestionBank[currQuestion].optionA}</button>
                 <button onClick={() => chooseOption('B')}>{QuestionBank[currQuestion].optionB}</button>
                 <button onClick={() => chooseOption('C')}>{QuestionBank[currQuestion].optionC}</button>

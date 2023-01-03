@@ -17,7 +17,7 @@ function EndScreen() {
 const navigate=useNavigate();
   const handleClose = () => {
     setShow(false);
-       navigate('/finalPage')    
+       navigate('/cssQuiz')    
   }
 
   const handleShow = () => setShow(true);

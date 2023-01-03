@@ -15,6 +15,9 @@ function Navbardes() {
             <Link className='link' to="/cssQuiz">cssQuestion</Link>
           
             <Link className='link' to="/finalPage">Final</Link>
+            <Link className='link' to="/adminPage">Admin</Link>
+            <Link className='link' to="/boot">Boot</Link>
+            <Link className='link' to="/fly">map</Link>
           </Nav>
         </Container>
       </Navbar>
