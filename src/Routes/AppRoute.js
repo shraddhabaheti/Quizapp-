@@ -4,6 +4,7 @@ import Boot from '../Boot';
 import Login from '../Component/Login/Login'
 import Navbardes from '../Component/Nav/Navbardes';
 import Css from '../Container/CssQuiz/Css';
+
 import FinalPage from '../Container/FinalPage';
 import Admin from '../Container/QuizStart/Admin/Admin';
 import Quiz from '../Container/QuizStart/Quiz';
